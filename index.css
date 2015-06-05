@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+@font-face
+{
+    font-family: learning-curve;
+    font-style: normal; font-weight: normal;
+	src: url("./assets/fonts/learning-curve.otf") format("opentype");
+}
+
+html
+{
+    color: #111;
+    font-size: 16px;
+    text-align: center;
+    font-family: cambria;
+    
+	background-color: #EEE;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+header
+{
+    width: 100%;
+    height: 75%;
+    display: table;
+    margin-bottom: 2em;
+    
+    background-size: cover;
+    background-position: top;
+    background-image: url("./assets/images/donuts.jpg");
+}
+
+header > div
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+section
+{
+    max-width: 16em;
+    margin: 3em auto;
+}
+
+footer
+{
+    width: 100%;
+    padding: 1em;
+    
+    color: #EEE;
+    background-color: #3D3D3D;
+}
+
+ul
+{
+    margin: 1em auto;
+    list-style-type: none;
+}
+
+ul > li:not(:last-child)
+{
+    margin: 1em;
+}
+
+#map
+{
+    width: 100%;
+    height: 24em;
+}
+
+h1
+{
+    color: #EEE;
+    font-size: 7em;
+    font-weight: bold;
+    font-family: learning-curve;
+    text-shadow: -1px 1px #CC0000,
+                 -2px 2px #CC0000,
+                 -3px 3px #CC0000,
+                 -4px 4px #CC0000,
+                 -5px 5px #CC0000;
+}
+
+h2
+{
+    color: #EEE;
+    font-weight: bold;
+    text-shadow: -1px 1px #CC0000,
+                 -2px 2px #CC0000;
+}
+
+h3
+{
+    font-size: 4em;
+    font-family: learning-curve;
+}
+
+h4
+{
+    font-size: 1.5em;
+}
+
+h5
+{
+    font-size: 1em;
+}
+
+span
+{
+    white-space: nowrap;
+}
+
+i
+{
+    display: block;
+}
+
+footer   a
+{
+    font-size: 3em;
+    color: inherit;
+    text-decoration: none;
+}
